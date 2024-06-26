@@ -1,0 +1,77 @@
+@import url('font.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.logo{
+    background-color: #a6a8a6;
+    text-align:center;
+    height:250px;
+    width: 100%;
+    margin: 0px;
+}
+.logo img{
+    margin-top: 20px;
+    height:210px;
+    width: 45%;
+
+}
+.menu{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+.menu ul{
+    display:inline-flex;
+    list-style: none;    
+    }
+.menu ul li{
+        width: 170px;
+        margin: 15px;
+        padding: 15px;
+}
+.menu ul li a{
+    text-decoration:none;
+
+}
+.menu ul li:hover{
+    width:170px;
+    background-color: #a6a8a6;
+
+}
+.menu ul i{
+    margin-right: 8px;
+}
+.sub-menu{
+    display:none;
+    text-align: center;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position:absolute;
+    background:rgb(213, 214, 201);
+    margin-top: 15px;
+    margin-left: -25px;
+    z-index: 2;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu ul li{
+    display: block;
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: center;
+}
+.menu ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-menu ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}

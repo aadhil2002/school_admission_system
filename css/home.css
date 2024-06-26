@@ -1,0 +1,64 @@
+
+.video_player_cnt{
+	margin-top: 0px;
+	height: 300px;
+	width: 100%;
+	background-image: url("../images/Arafa\ Public\ School-Campus.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	border-top: #fff 3px solid;
+	
+}
+.video_player_cnt::before{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.video_player_inner_cnt{
+	position: relative;
+	z-index: 9999;
+}
+.video_player_cnt h4{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 900;
+	margin:0;
+	padding: 0;
+}
+.video_player_cnt h5{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+.text-center {
+    text-align: center;
+}
+.image{
+	margin-top: 50px;
+}
+#block{
+	margin-top: 305px;
+    position: absolute;
+	margin-left: 15px;
+    width: 98%;
+
+}
+#block h2{
+	color: beige;	
+	background-color: #035303ca ;
+	padding: 10px;
+	border-radius: 40px;
+	text-align: center;
+}
+footer{
+	margin-top: 570px;
+	position: relative;
+}
